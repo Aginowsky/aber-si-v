@@ -13,11 +13,11 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
+    login="aginowsky",
+    password="alkandorainsta666",
     like_per_day=1000,
     comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
+    tag_list=['tattoo', 'blackwork', 'ink'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
@@ -33,12 +33,12 @@ bot = InstaBot(
     ### 'free_followers' will be blocked because it contains 'free'
     unwanted_username_list=[
         'second', 'stuff', 'art', 'project', 'love', 'life', 'food', 'blog',
-        'free', 'keren', 'photo', 'graphy', 'indo', 'travel', 'art', 'shop',
-        'store', 'sex', 'toko', 'jual', 'online', 'murah', 'jam', 'kaos',
-        'case', 'baju', 'fashion', 'corp', 'tas', 'butik', 'grosir', 'karpet',
-        'sosis', 'salon', 'skin', 'care', 'cloth', 'tech', 'rental', 'kamera',
+        'free', 'blackwork', 'photo', 'graphy', 'indo', 'travel', 'art', 'shop',
+        'store', 'sex', 'toko', 'skate', 'online', 'murah', 'jam', 'kaos',
+        'case', 'baju', 'fashion', 'corp', 'tas', 'draw', 'grosir', 'karpet',
+        'sosis', 'salon', 'skin', 'care', 'cloth', 'tech', 'art', 'kamera',
         'beauty', 'express', 'kredit', 'collection', 'impor', 'preloved',
-        'follow', 'follower', 'gain', '.id', '_id', 'bags'
+        'follow', 'tattoo', 'ink', '.black', '_id', 'bags'
     ],
     unfollow_whitelist=['example_user_1', 'example_user_2'])
 while True:
